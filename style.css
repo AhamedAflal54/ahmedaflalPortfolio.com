@@ -450,8 +450,9 @@ nav .bx{
         font-size: 14px;
     }
     .btn2{
-        display: flex;
-        /* margin-bottom: 300px; */
+        /* display: flex; */
+        margin-left: 0;
+        margin-top: 0;
     }
 }
 
