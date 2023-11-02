@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="image/logo.png" class="logo"> -->
+                <a href="#" class="logo-name">Ahamed Aflal</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bx-x' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <Span>Ahamed Aflal</Span></h1>
+            </div>
+        </div>
+    </div>
+<!-- -------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/Back1.JPG" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Greetings! I'm Ahamed Aflal, a passionate and versatile web developer with a 
+                        flair for crafting exceptional online experiences. With a background in Computer 
+                        Software Engineering and a genuine love for coding, I have dedicated myself to creating 
+                        innovative, functional, and visually stunning websites.
+                        My journey began with a fascination for the intricate dance of HTML, CSS, and JavaScript, 
+                        and it has since evolved into a profession where I thrive on solving complex problems and 
+                        making the web a better place. I take pride in staying up-to-date with the latest 
+                        web technologies and trends, ensuring that my work is always at the forefront of innovation.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Desiging Web/App Interface</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>App Development</span><br>Building Android/iOS apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>Web Developer Freelance</li>
+                                <li><span>2023 - Current</span><br>Mobile App Developer Freelance</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Higher National Diploma in Computing (Software Engenering)</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Services------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class='bx bx-code-alt'></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero commodi, 
+                        pariatur vel perferendis nam cum, unde possimus nobis placeat officiis, 
+                        ea ut recusandae itaque voluptas ab? Consequuntur amet nihil voluptatem.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxs-crop'></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero commodi, 
+                        pariatur vel perferendis nam cum, unde possimus nobis placeat officiis, 
+                        ea ut recusandae itaque voluptas ab? Consequuntur amet nihil voluptatem.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxl-android'></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero commodi, 
+                        pariatur vel perferendis nam cum, unde possimus nobis placeat officiis, 
+                        ea ut recusandae itaque voluptas ab? Consequuntur amet nihil voluptatem.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------Portfolio------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Ea ad dolore, ipsam necessitatibus eligendi voluptatibus sint harum alias 
+                            earum voluptate quibusdam nihil ab iusto magnam excepturi voluptas. Blanditiis, 
+                            ea aliquam!</P>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Ea ad dolore, ipsam necessitatibus eligendi voluptatibus sint harum alias 
+                            earum voluptate quibusdam nihil ab iusto magnam excepturi voluptas. Blanditiis, 
+                            ea aliquam!</P>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce Site</h3>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Ea ad dolore, ipsam necessitatibus eligendi voluptatibus sint harum alias 
+                            earum voluptate quibusdam nihil ab iusto magnam excepturi voluptas. Blanditiis, 
+                            ea aliquam!</P>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class='bx bxl-gmail'></i>contact@example.com</p>
+                    <p><i class='bx bx-phone'></i>0123456789</p>
+                    <div class="social-icon">
+                        <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                        <a href=""><i class='bx bxl-twitter'></i></a>
+                        <a href=""><i class='bx bxl-instagram' ></i></a>
+                        <a href=""><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="submit">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                <a href="My resume (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <P>© 2023 | All rights reserved by <span>Ahamed Aflal</span></p>
+        </div>
+    </div>
+
+    <script>
+        // var tablinks = document.getElementsByClassName("tab-links");
+        // var tabcontents = document.getElementsByClassName("tab-contents");
+
+        // function opentab(tabname){
+        //     for(tablink of tablinks){
+        //         tablink.classlist.remove("active-link");
+        //     }
+        //     for(tabcontent of tabcontents){
+        //         tabcontent.classlist.remove("active-tab");
+        //     }
+        // }
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        // Add the "active-link" and "active-tab" classes to the selected tab
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbygU4y7OQM70BtFCSAeZX8sSJVpEeWsCjAWFGaadoobuiREdzRTaC1xWP0jFyctNzfbGg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
